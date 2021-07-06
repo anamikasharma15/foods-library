@@ -10,6 +10,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 
 }
 .half-width{
@@ -28,6 +29,10 @@ section{
     border-radius: 5px;
 }
 .top-banner{
-    background-image: url(Saved\ Pictures/frame56.png);
+    background-image: url(Saved\ Pictures/frame56.jpn);
+    background-repeat: no-repeat;
+}
+.About-us{
+    background-image: url(Saved\ Pictures/frame57.jpn);
     background-repeat: no-repeat;
 }
