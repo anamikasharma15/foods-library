@@ -8,7 +8,7 @@ h1{
 .blue-color{
     color: blue;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 
@@ -16,9 +16,20 @@ section{
 .half-width{
     width: 50%;
     padding-left: 2%;
+    
 }
 .half-width img{
     width: 100%;
+}
+#foods-li{
+    color: white;
+    align:center;
+    padding-left: 25px;
+    margin: 10px;
+    
+}
+#top-pat{
+    background-color: cornflowerblue;
 }
 .order-button{
     text-decoration: none;
@@ -28,11 +39,49 @@ section{
     font-weight: 700;
     border-radius: 5px;
 }
-.top-banner{
-    background-image: url(Saved\ Pictures/frame56.jpn);
+
+
+.About-us{
+    background-image: url(images/Frame\ 57.jpg);
     background-repeat: no-repeat;
 }
-.About-us{
-    background-image: url(Saved\ Pictures/frame57.jpn);
-    background-repeat: no-repeat;
+#recipies{
+    text-align: center;
+}
+#food{
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.Recipies-items{
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    align: justify;
+    border-radius: 30px;
+    box-shadow: 0 0 10px gray;
+    border:10px solid white;
+}
+#foods-review{
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    align: center
+    ;
+    border-radius: 30px;
+    box-shadow: 0 0 10px gray;
+    border:10px solid white;
+}
+.Recipies-items img{
+    width: 100%;
+    border-radius: 30px;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: darksalmon;
+    color: white;
 }
